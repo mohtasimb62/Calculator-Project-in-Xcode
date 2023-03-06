@@ -17,6 +17,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblOutput: UILabel!
     
+    
+    
+    @IBAction func btnACClick(_ sender: UIButton) {
+        
+        guard var strOut = lblOutput.text else {
+            return
+        }
+
+        strOut = "0"
+
+        lblOutput.text = strOut
+        
+    }
+    
     @IBAction func btnNumberClick(_ sender: UIButton) {
         
         guard let value = sender.titleLabel?.text else {
@@ -47,14 +61,6 @@ class ViewController: UIViewController {
     
     
     
-    
-    
-    
-//    guard var strOut = lblOutput.text else {
-//        return
-//    }
-//    strOut = "0"
-//    lblOutput.text = strOut         <------for all clear
 //
 //
 //
