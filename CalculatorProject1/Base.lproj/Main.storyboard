@@ -123,6 +123,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="btnPlusClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7AI-On-b8u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uz-Cn-0lY">
                                 <rect key="frame" x="8" y="536.66666666666663" width="88.333333333333329" height="132.66666666666663"/>
